@@ -20,4 +20,5 @@ function fn1(a, b, c) {
 }
 
 const fn2 = fn1.myBind({ name: 'xialuo'}, 10, 20, 30)
-fn2()
+const a = fn2()
+
